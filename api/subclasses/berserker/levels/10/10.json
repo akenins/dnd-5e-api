@@ -1,0 +1,23 @@
+{
+  "level": 10,
+  "feature_choices": [],
+  "features": [
+    {
+      "index": "intimidating-presence",
+      "name": "Intimidating Presence",
+      "url": "/api/features/intimidating-presence"
+    }
+  ],
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/classes/barbarian"
+  },
+  "subclass": {
+    "index": "berserker",
+    "name": "Berserker",
+    "url": "/api/subclasses/berserker"
+  },
+  "url": "/api/subclasses/berserker/levels/10",
+  "index": "berserker-10"
+}

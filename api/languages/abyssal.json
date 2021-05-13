@@ -1,0 +1,8 @@
+{
+  "index": "abyssal",
+  "name": "Abyssal",
+  "type": "Exotic",
+  "typical_speakers": ["Demons"],
+  "script": "Infernal",
+  "url": "/api/languages/abyssal"
+}

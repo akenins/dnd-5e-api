@@ -1,0 +1,26 @@
+{
+  "index": "dwarven-armor-training",
+  "races": [{ "index": "dwarf", "name": "Dwarf", "url": "/api/races/dwarf" }],
+  "subraces": [
+    {
+      "index": "mountain-dwarf",
+      "name": "Mountain Dwarf",
+      "url": "/api/subraces/mountain-dwarf"
+    }
+  ],
+  "name": "Dwarven Armor Training",
+  "desc": ["You have proficiency with light and medium armor."],
+  "proficiencies": [
+    {
+      "index": "light-armor",
+      "name": "Light armor",
+      "url": "/api/proficiencies/light-armor"
+    },
+    {
+      "index": "medium-armor",
+      "name": "Medium armor",
+      "url": "/api/proficiencies/medium-armor"
+    }
+  ],
+  "url": "/api/traits/dwarven-armor-training"
+}

@@ -1,0 +1,23 @@
+{
+  "level": 15,
+  "feature_choices": [],
+  "features": [
+    {
+      "index": "superior-critical",
+      "name": "Superior Critical",
+      "url": "/api/features/superior-critical"
+    }
+  ],
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/classes/fighter"
+  },
+  "subclass": {
+    "index": "champion",
+    "name": "Champion",
+    "url": "/api/subclasses/champion"
+  },
+  "url": "/api/subclasses/champion/levels/15",
+  "index": "champion-15"
+}

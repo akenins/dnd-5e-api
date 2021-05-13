@@ -1,0 +1,23 @@
+{
+  "level": 14,
+  "feature_choices": [],
+  "features": [
+    {
+      "index": "retaliation",
+      "name": "Retaliation",
+      "url": "/api/features/retaliation"
+    }
+  ],
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/classes/barbarian"
+  },
+  "subclass": {
+    "index": "berserker",
+    "name": "Berserker",
+    "url": "/api/subclasses/berserker"
+  },
+  "url": "/api/subclasses/berserker/levels/14",
+  "index": "berserker-14"
+}

@@ -1,0 +1,23 @@
+{
+  "level": 18,
+  "feature_choices": [],
+  "features": [
+    {
+      "index": "survivor",
+      "name": "Survivor",
+      "url": "/api/features/survivor"
+    }
+  ],
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/classes/fighter"
+  },
+  "subclass": {
+    "index": "champion",
+    "name": "Champion",
+    "url": "/api/subclasses/champion"
+  },
+  "url": "/api/subclasses/champion/levels/18",
+  "index": "champion-18"
+}

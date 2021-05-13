@@ -1,0 +1,1 @@
+{"index":"bard-expertise-stealth","class":{"index":"bard","name":"Bard","url":"/api/classes/bard"},"name":"Expertise: Stealth","prerequisites":[{"type":"proficiency","proficiency":"/api/proficiencies/skill-stealth"}],"desc":["Your proficiency bonus is doubled for any ability check you make for this skill."],"group":"Expertise (Bard)","url":"/api/features/bard-expertise-stealth"}

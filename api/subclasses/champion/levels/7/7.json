@@ -1,0 +1,23 @@
+{
+  "level": 7,
+  "feature_choices": [],
+  "features": [
+    {
+      "index": "remarkable-athlete",
+      "name": "Remarkable Athlete",
+      "url": "/api/features/remarkable-athlete"
+    }
+  ],
+  "class": {
+    "index": "fighter",
+    "name": "Fighter",
+    "url": "/api/classes/fighter"
+  },
+  "subclass": {
+    "index": "champion",
+    "name": "Champion",
+    "url": "/api/subclasses/champion"
+  },
+  "url": "/api/subclasses/champion/levels/7",
+  "index": "champion-7"
+}

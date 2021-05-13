@@ -1,0 +1,1 @@
+{"index":"bard-expertise-arcana","class":{"index":"bard","name":"Bard","url":"/api/classes/bard"},"name":"Expertise: Arcana","prerequisites":[{"type":"proficiency","proficiency":"/api/proficiencies/skill-arcana"}],"desc":["Your proficiency bonus is doubled for any ability check you make for this skill."],"group":"Expertise (Bard)","url":"/api/features/bard-expertise-arcana"}

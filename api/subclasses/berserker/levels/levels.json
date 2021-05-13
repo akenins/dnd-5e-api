@@ -1,0 +1,94 @@
+[
+  {
+    "level": 3,
+    "feature_choices": [],
+    "features": [
+      {
+        "index": "frenzy",
+        "name": "Frenzy",
+        "url": "/api/features/frenzy"
+      }
+    ],
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/classes/barbarian"
+    },
+    "subclass": {
+      "index": "berserker",
+      "name": "Berserker",
+      "url": "/api/subclasses/berserker"
+    },
+    "url": "/api/subclasses/berserker/levels/3",
+    "index": "berserker-3"
+  },
+  {
+    "level": 6,
+    "feature_choices": [],
+    "features": [
+      {
+        "index": "mindless-rage",
+        "name": "Mindless Rage",
+        "url": "/api/features/mindless-rage"
+      }
+    ],
+    "index": "berserker-6",
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/classes/barbarian"
+    },
+    "subclass": {
+      "index": "berserker",
+      "name": "Berserker",
+      "url": "/api/subclasses/berserker"
+    },
+    "url": "/api/subclasses/berserker/levels/6"
+  },
+  {
+    "level": 10,
+    "feature_choices": [],
+    "features": [
+      {
+        "index": "intimidating-presence",
+        "name": "Intimidating Presence",
+        "url": "/api/features/intimidating-presence"
+      }
+    ],
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/classes/barbarian"
+    },
+    "subclass": {
+      "index": "berserker",
+      "name": "Berserker",
+      "url": "/api/subclasses/berserker"
+    },
+    "url": "/api/subclasses/berserker/levels/10",
+    "index": "berserker-10"
+  },
+  {
+    "level": 14,
+    "feature_choices": [],
+    "features": [
+      {
+        "index": "retaliation",
+        "name": "Retaliation",
+        "url": "/api/features/retaliation"
+      }
+    ],
+    "class": {
+      "index": "barbarian",
+      "name": "Barbarian",
+      "url": "/api/classes/barbarian"
+    },
+    "subclass": {
+      "index": "berserker",
+      "name": "Berserker",
+      "url": "/api/subclasses/berserker"
+    },
+    "url": "/api/subclasses/berserker/levels/14",
+    "index": "berserker-14"
+  }
+]
