@@ -1,0 +1,268 @@
+{
+  "index": "sailor",
+  "name": "Sailor",
+  "starting_proficiencies": [
+    {
+      "index": "skill-athletics",
+      "name": "Skill: Athletics",
+      "url": "/api/proficiencies/skill-athletics"
+    },
+    {
+      "index": "skill-perception",
+      "name": "Skill: Perception",
+      "url": "/api/proficiencies/skill-perception"
+    }
+  ],
+  "language_options": {
+    "from": [],
+    "choose": 0,
+    "type": "languages"
+  },
+  "tool_proficiencies": [
+    {
+      "index": "navigators-tools",
+      "name": "Navigator's Tools",
+      "url": "/api/proficiencies/navigators-tools"
+    },
+    {
+      "index": "water-vehicles",
+      "name": "Water Vehicles",
+      "url": "/api/proficiencies/water-vehicles"
+    }
+  ],
+  "starting_equipment": [
+    {
+      "equipment": {
+        "index": "clothes-common",
+        "name": "Clothes, common",
+        "url": "/api/equipment/clothes-common"
+      },
+      "quantity": 1
+    },
+    {
+      "equipment": {
+        "index": "pouch",
+        "name": "Pouch",
+        "url": "/api/equipment/pouch"
+      },
+      "quantity": 1
+    },
+    {
+      "equipment": {
+        "index": "club",
+        "name": "Club",
+        "url": "/api/equipment/club"
+      },
+      "quantity": 1
+    },
+    {
+      "equipment": {
+        "index": "rope-silk-50-feet",
+        "name": "Rope, silk (50 feet)",
+        "url": "/api/equipment/rope-silk-50-feet"
+      },
+      "quantity": 1
+    }
+  ],
+  "starting_equipment_options": [],
+  "feature": {
+    "desc": [
+      "When you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you're calling in a favor, you can't be certain of a schedule or route that will meet your every need. Your DM will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage."
+    ],
+    "name": "Ship's Passage"
+  },
+  "personality_traits": {
+    "from": [
+      "My friends know they can rely on me, no matter what.",
+      "I work hard so that I can play hard when the work is done.",
+      "I enjoy sailing into new ports and making new friends over a flagon of ale.",
+      "I stretch the truth for the sake of a good story.",
+      "To me, a tavern brawl is a nice way to get to know a new city.",
+      "I never pass up a friendly wager.",
+      "My language is as foul as an otyugh nest.",
+      "I like a job well done, especially if I can convince someone else to do it."
+    ],
+    "choose": 2,
+    "type": "personality_traits"
+  },
+  "ideals": {
+    "from": [
+      {
+        "desc": "Respect. The thing that keeps a ship together is mutual respect between captain and crew.",
+        "alignments": [
+          {
+            "index": "lawful-good",
+            "name": "Lawful Good",
+            "url": "api/alignments/lawful-good"
+          },
+          {
+            "index": "neutral-good",
+            "name": "Neutral Good",
+            "url": "api/alignments/neutral-good"
+          },
+          {
+            "index": "chaotic-good",
+            "name": "Chaotic Good",
+            "url": "api/alignments/chaotic-good"
+          }
+        ]
+      },
+      {
+        "desc": "Fairness. We all do the work, so we all share in the rewards.",
+        "alignments": [
+          {
+            "index": "lawful-good",
+            "name": "Lawful Good",
+            "url": "api/alignments/lawful-good"
+          },
+          {
+            "index": "lawful-neutral",
+            "name": "Lawful Neutral",
+            "url": "api/alignments/lawful-neutral"
+          },
+          {
+            "index": "lawful-evil",
+            "name": "Lawful Evil",
+            "url": "api/alignments/lawful-evil"
+          }
+        ]
+      },
+      {
+        "desc": "Freedom. The sea is freedom-the freedom to go anywhere and do anything.",
+        "alignments": [
+          {
+            "index": "chaotic-good",
+            "name": "Chaotic Good",
+            "url": "api/alignments/chaotic-good"
+          },
+          {
+            "index": "chaotic-neutral",
+            "name": "Chaotic Neutral",
+            "url": "api/alignments/chaotic-neutral"
+          },
+          {
+            "index": "chaotic-evil",
+            "name": "Chaotic Evil",
+            "url": "api/alignments/chaotic-evil"
+          }
+        ]
+      },
+      {
+        "desc": "Mastery. I'm a predator, and the other ships on the sea are my prey.",
+        "alignments": [
+          {
+            "index": "chaotic-evil",
+            "name": "Chaotic Evil",
+            "url": "api/alignments/chaotic-evil"
+          },
+          {
+            "index": "lawful-evil",
+            "name": "Lawful Evil",
+            "url": "api/alignments/lawful-evil"
+          },
+          {
+            "index": "neutral-evil",
+            "name": "Neutral Evil",
+            "url": "api/alignments/neutral-evil"
+          }
+        ]
+      },
+      {
+        "desc": "People. I'm committed to my crewmates, not to ideals.",
+        "alignments": [
+          {
+            "index": "neutral-good",
+            "name": "Neutral Good",
+            "url": "api/alignments/neutral-good"
+          },
+          {
+            "index": "neutral",
+            "name": "Neutral",
+            "url": "api/alignments/neutral"
+          },
+          {
+            "index": "neutral-evil",
+            "name": "Neutral Evil",
+            "url": "api/alignments/neutral-evil"
+          }
+        ]
+      },
+      {
+        "desc": "Aspiration. Someday I'll own my own ship and chart my own destiny.",
+        "alignments": [
+          {
+            "index": "lawful-good",
+            "name": "Lawful Good",
+            "url": "api/alignments/lawful-good"
+          },
+          {
+            "index": "neutral-good",
+            "name": "Neutral Good",
+            "url": "api/alignments/neutral-good"
+          },
+          {
+            "index": "chaotic-good",
+            "name": "Chaotic Good",
+            "url": "api/alignments/chaotic-good"
+          },
+          {
+            "index": "lawful-neutral",
+            "name": "Lawful Neutral",
+            "url": "api/alignments/lawful-neutral"
+          },
+          {
+            "index": "neutral",
+            "name": "Neutral",
+            "url": "api/alignments/neutral"
+          },
+          {
+            "index": "chaotic-neutral",
+            "name": "Chaotic Neutral",
+            "url": "api/alignments/chaotic-neutral"
+          },
+          {
+            "index": "lawful-evil",
+            "name": "Lawful Evil",
+            "url": "api/alignments/lawful-evil"
+          },
+          {
+            "index": "neutral-evil",
+            "name": "Neutral Evil",
+            "url": "api/alignments/neutral-evil"
+          },
+          {
+            "index": "chaotic-evil",
+            "name": "Chaotic Evil",
+            "url": "api/alignments/chaotic-evil"
+          }
+        ]
+      }
+    ],
+    "choose": 1,
+    "type": "ideals"
+  },
+  "bonds": {
+    "from": [
+      "I'm loyal to my captain first, everything else second.",
+      "The ship is most important – crewmates and captains come and go.",
+      "I'll always remember my first ship.",
+      "In a harbor town, I have a paramour whose eyes nearly stole me from the sea.",
+      "I was cheated out of my fair share of the profits, and I want to get my due.",
+      "Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine."
+    ],
+    "choose": 1,
+    "type": "bonds"
+  },
+  "flaws": {
+    "from": [
+      "I follow orders, even if I think they're wrong.",
+      "I'll say anything to avoid having to do extra work.",
+      "Once someone questions my courage, I never back down no matter how dangerous the situation.",
+      "Once I start drinking, it's hard for me to stop.",
+      "I can't help but pocket loose coins and other trinkets I come across.",
+      "My pride will probably lead to my destruction."
+    ],
+    "choose": 1,
+    "type": "flaws"
+  }
+}

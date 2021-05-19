@@ -99,12 +99,13 @@
     "choose": 2,
     "type": "languages"
   },
+  "tool_proficiencies": [],
   "starting_equipment": [
     {
       "equipment": {
-        "index": "clothes-common",
-        "name": "Clothes, common",
-        "url": "/api/equipment/clothes-common"
+        "index": "club",
+        "name": "Belaying pin",
+        "url": "/api/equipment/club"
       },
       "quantity": 1
     },

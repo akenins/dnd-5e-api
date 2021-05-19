@@ -1,0 +1,289 @@
+{
+  "index": "tempest",
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/classes/cleric"
+  },
+  "name": "Tempest",
+  "subclass_flavor": "Divine Domain",
+  "desc": [
+    "Gods whose portfolios include the Tempest domain – including Talos, Umberlee, Kord, Zeboim, the Devourer, Zeus, and Thor – govern storms, sea, and, sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath."
+  ],
+  "spells": [
+    {
+      "prerequisites": [
+        {
+          "index": "cleric-1",
+          "type": "level",
+          "name": "Cleric 1",
+          "url": "/api/classes/cleric/levels/1"
+        }
+      ],
+      "spell": {
+        "index": "fog-cloud",
+        "name": "Fog Cloud",
+        "url": "/api/spells/fog-cloud"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "cleric-1",
+          "type": "level",
+          "name": "Cleric 1",
+          "url": "/api/classes/cleric/levels/1"
+        }
+      ],
+      "spell": {
+        "index": "Thunderwave",
+        "name": "Thunderwave",
+        "url": "/api/spells/Thunderwave"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "cleric-3",
+          "type": "level",
+          "name": "Cleric 3",
+          "url": "/api/classes/cleric/levels/3"
+        }
+      ],
+      "spell": {
+        "index": "gust-of-wind",
+        "name": "Gust of Wind",
+        "url": "/api/spells/gust-of-wind"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "cleric-3",
+          "type": "level",
+          "name": "Cleric 3",
+          "url": "/api/classes/cleric/levels/3"
+        }
+      ],
+      "spell": {
+        "index": "shatter",
+        "name": "Shatter",
+        "url": "/api/spells/shatter"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "cleric-5",
+          "type": "level",
+          "name": "Cleric 5",
+          "url": "/api/classes/cleric/levels/5"
+        }
+      ],
+      "spell": {
+        "index": "call-lightning",
+        "name": "Call Lightning",
+        "url": "/api/spells/call-lightning"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "cleric-5",
+          "type": "level",
+          "name": "Cleric 5",
+          "url": "/api/classes/cleric/levels/5"
+        }
+      ],
+      "spell": {
+        "index": "sleet-storm",
+        "name": "Sleet Storm",
+        "url": "/api/spells/sleet-storm"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "cleric-7",
+          "type": "level",
+          "name": "Cleric 7",
+          "url": "/api/classes/cleric/levels/7"
+        }
+      ],
+      "spell": {
+        "index": "control-water",
+        "name": "Control Water",
+        "url": "/api/spells/control-water"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "cleric-7",
+          "type": "level",
+          "name": "Cleric 7",
+          "url": "/api/classes/cleric/levels/7"
+        }
+      ],
+      "spell": {
+        "index": "ice-storm",
+        "name": "Ice Storm",
+        "url": "/api/spells/ice-storm"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "cleric-9",
+          "type": "level",
+          "name": "Cleric 9",
+          "url": "/api/classes/cleric/levels/9"
+        }
+      ],
+      "spell": {
+        "index": "destructive-wave",
+        "name": "Destructive Wave",
+        "url": "/api/spells/destructive-wave"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "cleric-9",
+          "type": "level",
+          "name": "Cleric 9",
+          "url": "/api/classes/cleric/levels/9"
+        }
+      ],
+      "spell": {
+        "index": "insect-plague",
+        "name": "Insect Plague",
+        "url": "/api/spells/insect-plague"
+      }
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "bonus-proficiency",
+          "name": "Bonus Proficiency",
+          "url": "/api/features/bonus-proficiency"
+        },
+        {
+          "index": "wrath-of-the-storm",
+          "name": "Wrath of the Storm",
+          "url": "/api/features/wrath-of-the-storm"
+        }
+      ],
+      "class": {
+        "index": "cleric",
+        "name": "Cleric",
+        "url": "/api/classes/cleric"
+      },
+      "subclass": {
+        "index": "tempest",
+        "name": "Tempest",
+        "url": "/api/subclasses/tempest"
+      },
+      "url": "/api/subclasses/tempest/levels/1",
+      "index": "tempest-1"
+    },
+    {
+      "level": 2,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "channel-divinity-destructive-wrath",
+          "name": "Channel Divinity: Destructive Wrath",
+          "url": "/api/features/channel-divinity-destructive-wrath"
+        }
+      ],
+      "class": {
+        "index": "cleric",
+        "name": "Cleric",
+        "url": "/api/classes/cleric"
+      },
+      "subclass": {
+        "index": "tempest",
+        "name": "Tempest",
+        "url": "/api/subclasses/tempest"
+      },
+      "url": "/api/subclasses/tempest/levels/2",
+      "index": "tempest-2"
+    },
+    {
+      "level": 6,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "thunderous-strike",
+          "name": "Thunderous Strike",
+          "url": "/api/features/thunderous-strike"
+        }
+      ],
+      "class": {
+        "index": "cleric",
+        "name": "Cleric",
+        "url": "/api/classes/cleric"
+      },
+      "subclass": {
+        "index": "tempest",
+        "name": "Tempest",
+        "url": "/api/subclasses/tempest"
+      },
+      "url": "/api/subclasses/tempest/levels/6",
+      "index": "tempest-6"
+    },
+    {
+      "level": 8,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "divine-strike-tempest",
+          "name": "Divine Strike",
+          "url": "/api/features/divine-strike-tempest"
+        }
+      ],
+      "class": {
+        "index": "cleric",
+        "name": "Cleric",
+        "url": "/api/classes/cleric"
+      },
+      "subclass": {
+        "index": "tempest",
+        "name": "Tempest",
+        "url": "/api/subclasses/tempest"
+      },
+      "url": "/api/subclasses/tempest/levels/8",
+      "index": "tempest-8"
+    },
+    {
+      "level": 17,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "stormborn",
+          "name": "Stormborn",
+          "url": "/api/features/stormborn"
+        }
+      ],
+      "class": {
+        "index": "cleric",
+        "name": "Cleric",
+        "url": "/api/classes/cleric"
+      },
+      "subclass": {
+        "index": "tempest",
+        "name": "Tempest",
+        "url": "/api/subclasses/tempest"
+      },
+      "url": "/api/subclasses/tempest/levels/17",
+      "index": "tempest-17"
+    }
+  ],
+  "subclass_levels": "/api/subclasses/tempest/levels",
+  "url": "/api/subclasses/tempest"
+}

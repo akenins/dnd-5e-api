@@ -1,0 +1,109 @@
+{
+  "index": "berserker",
+  "class": {
+    "index": "barbarian",
+    "name": "Barbarian",
+    "url": "/api/classes/barbarian"
+  },
+  "name": "Berserker",
+  "subclass_flavor": "Primal Path",
+  "desc": [
+    "For some barbarians, rage is a means to an end--that end being violence. The Path of the Berserker is a path of untrammeled fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being."
+  ],
+  "levels": [
+    {
+      "level": 3,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "frenzy",
+          "name": "Frenzy",
+          "url": "/api/features/frenzy"
+        }
+      ],
+      "class": {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "url": "/api/classes/barbarian"
+      },
+      "subclass": {
+        "index": "berserker",
+        "name": "Berserker",
+        "url": "/api/subclasses/berserker"
+      },
+      "url": "/api/subclasses/berserker/levels/3",
+      "index": "berserker-3"
+    },
+    {
+      "level": 6,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "mindless-rage",
+          "name": "Mindless Rage",
+          "url": "/api/features/mindless-rage"
+        }
+      ],
+      "index": "berserker-6",
+      "class": {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "url": "/api/classes/barbarian"
+      },
+      "subclass": {
+        "index": "berserker",
+        "name": "Berserker",
+        "url": "/api/subclasses/berserker"
+      },
+      "url": "/api/subclasses/berserker/levels/6"
+    },
+    {
+      "level": 10,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "intimidating-presence",
+          "name": "Intimidating Presence",
+          "url": "/api/features/intimidating-presence"
+        }
+      ],
+      "class": {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "url": "/api/classes/barbarian"
+      },
+      "subclass": {
+        "index": "berserker",
+        "name": "Berserker",
+        "url": "/api/subclasses/berserker"
+      },
+      "url": "/api/subclasses/berserker/levels/10",
+      "index": "berserker-10"
+    },
+    {
+      "level": 14,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "retaliation",
+          "name": "Retaliation",
+          "url": "/api/features/retaliation"
+        }
+      ],
+      "class": {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "url": "/api/classes/barbarian"
+      },
+      "subclass": {
+        "index": "berserker",
+        "name": "Berserker",
+        "url": "/api/subclasses/berserker"
+      },
+      "url": "/api/subclasses/berserker/levels/14",
+      "index": "berserker-14"
+    }
+  ],
+  "subclass_levels": "/api/subclasses/berserker/levels",
+  "url": "/api/subclasses/berserker"
+}

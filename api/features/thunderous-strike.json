@@ -1,0 +1,20 @@
+{
+  "index": "thunderous-strike",
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/classes/cleric"
+  },
+  "subclass": {
+    "index": "tempest",
+    "name": "Tempest",
+    "url": "/api/subclasses/tempest"
+  },
+  "name": "Thunderous Strike",
+  "level": 6,
+  "prerequisites": [],
+  "desc": [
+    "At 6th level, when you deal lightning damage to a Large or smaller creature, you can also push it up to 10 feet away from you."
+  ],
+  "url": "/api/features/thunderous-strike"
+}

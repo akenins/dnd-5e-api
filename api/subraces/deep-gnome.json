@@ -1,0 +1,41 @@
+{
+  "index": "deep-gnome",
+  "name": "Deep Gnome (Svirfneblin)",
+  "race": {
+    "index": "gnome",
+    "name": "Gnome",
+    "url": "/api/races/gnome"
+  },
+  "desc": "Guarded, and suspicious of outsiders, svirfneblin are cunning and taciturn, but can be just as kind-hearted, loyal, and compassionate as their surface cousins.",
+  "ability_bonuses": [
+    {
+      "ability_score": {
+        "index": "dex",
+        "name": "DEX",
+        "url": "/api/ability-scores/dex"
+      },
+      "bonus": 1
+    }
+  ],
+  "starting_proficiencies": [],
+  "languages": [
+    {
+      "index": "undercommon",
+      "name": "Undercommon",
+      "url": "/api/languages/undercommon"
+    }
+  ],
+  "racial_traits": [
+    {
+      "index": "superior-darkvision",
+      "name": "Superior Darkvision",
+      "url": "/api/traits/superior-darkvision"
+    },
+    {
+      "index": "stone-camouflage",
+      "name": "Stone Camouflage",
+      "url": "/api/traits/stone-camouflage"
+    }
+  ],
+  "url": "/api/subraces/deep-gnome"
+}

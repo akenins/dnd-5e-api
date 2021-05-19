@@ -1,0 +1,1 @@
+curl https://www.dnd5eapi.co/api/traits | jq '.results[] | .url' > results.json

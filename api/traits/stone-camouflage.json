@@ -1,0 +1,17 @@
+{
+  "index": "stone-camouflage",
+  "races": [],
+  "subraces": [
+    {
+      "index": "deep-gnome",
+      "name": "Deep Gnome",
+      "url": "/api/subraces/deep-gnome"
+    }
+  ],
+  "name": "Stone Camouflage",
+  "desc": [
+    "You have advantage on Dexterity (Stealth) checks to hide in rocky terrain."
+  ],
+  "proficiencies": [],
+  "url": "/api/traits/stone-camouflage"
+}

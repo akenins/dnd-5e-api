@@ -1,0 +1,21 @@
+{
+  "index": "channel-divinity-destructive-wrath",
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/classes/cleric"
+  },
+  "subclass": {
+    "index": "tempest",
+    "name": "Tempest",
+    "url": "/api/subclasses/tempest"
+  },
+  "name": "Channel Divinity: Destructive Wrath",
+  "level": 2,
+  "prerequisites": [],
+  "desc": [
+    "Starting at 2nd level, you can use your Channel Divinity to wield the power of the storm with unchecked ferocity.",
+    "When you roll lightning or thunder damage, you can use your Channel Divinity to deal maximum damage, instead of rolling."
+  ],
+  "url": "/api/features/channel-divinity-destructive-wrath"
+}
