@@ -1,0 +1,20 @@
+{
+  "index": "bonus-proficiencies-tempest",
+  "class": {
+    "index": "cleric",
+    "name": "Cleric",
+    "url": "/api/classes/cleric"
+  },
+  "subclass": {
+    "index": "tempest",
+    "name": "Tempest",
+    "url": "/api/subclasses/tempest"
+  },
+  "name": "Bonus Proficiencies",
+  "level": 1,
+  "prerequisites": [],
+  "desc": [
+    "When you choose this domain at 1st level, you gain proficiency with martial weapons and heavy armor."
+  ],
+  "url": "/api/features/bonus-proficiencies-tempest"
+}

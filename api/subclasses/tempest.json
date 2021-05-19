@@ -168,9 +168,9 @@
       "feature_choices": [],
       "features": [
         {
-          "index": "bonus-proficiency",
-          "name": "Bonus Proficiency",
-          "url": "/api/features/bonus-proficiency"
+          "index": "bonus-proficiencies-tempest",
+          "name": "Bonus Proficiencies",
+          "url": "/api/features/bonus-proficiencies-tempest"
         },
         {
           "index": "wrath-of-the-storm",
