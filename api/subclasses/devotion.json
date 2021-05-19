@@ -1,0 +1,275 @@
+{
+  "index": "devotion",
+  "class": {
+    "index": "paladin",
+    "name": "Paladin",
+    "url": "/api/classes/paladin"
+  },
+  "name": "Devotion",
+  "subclass_flavor": "Sacred Oath",
+  "desc": [
+    "The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels--the perfect servants of good--as their ideals, and incorporate images of angelic wings into their helmets or coats of arms."
+  ],
+  "spells": [
+    {
+      "prerequisites": [
+        {
+          "index": "paladin-3",
+          "type": "level",
+          "name": "Paladin 3",
+          "url": "/api/classes/paladin/levels/3"
+        }
+      ],
+      "spell": {
+        "index": "protection-from-evil-and-good",
+        "name": "Protection from Evil and Good",
+        "url": "/api/spells/protection-from-evil-and-good"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "paladin-3",
+          "type": "level",
+          "name": "Paladin 3",
+          "url": "/api/classes/paladin/levels/3"
+        }
+      ],
+      "spell": {
+        "index": "sanctuary",
+        "name": "Sanctuary",
+        "url": "/api/spells/sanctuary"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "paladin-5",
+          "type": "level",
+          "name": "Paladin 5",
+          "url": "/api/classes/paladin/levels/5"
+        }
+      ],
+      "spell": {
+        "index": "lesser-restoration",
+        "name": "Lesser Restoration",
+        "url": "/api/spells/lesser-restoration"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "paladin-5",
+          "type": "level",
+          "name": "Paladin 5",
+          "url": "/api/classes/paladin/levels/5"
+        }
+      ],
+      "spell": {
+        "index": "zone-of-truth",
+        "name": "Zone of Truth",
+        "url": "/api/spells/zone-of-truth"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "paladin-9",
+          "type": "level",
+          "name": "Paladin 9",
+          "url": "/api/classes/paladin/levels/9"
+        }
+      ],
+      "spell": {
+        "index": "beacon-of-hope",
+        "name": "Beacon of Hope",
+        "url": "/api/spells/beacon-of-hope"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "paladin-9",
+          "type": "level",
+          "name": "Paladin 9",
+          "url": "/api/classes/paladin/levels/9"
+        }
+      ],
+      "spell": {
+        "index": "dispel-magic",
+        "name": "Dispel Magic",
+        "url": "/api/spells/dispel-magic"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "paladin-13",
+          "type": "level",
+          "name": "Paladin 13",
+          "url": "/api/classes/paladin/levels/13"
+        }
+      ],
+      "spell": {
+        "index": "freedom-of-movement",
+        "name": "Freedom of Movement",
+        "url": "/api/spells/freedom-of-movement"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "paladin-17",
+          "type": "level",
+          "name": "Paladin 17",
+          "url": "/api/classes/paladin/levels/17"
+        }
+      ],
+      "spell": {
+        "index": "commune",
+        "name": "Commune",
+        "url": "/api/spells/commune"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "paladin-17",
+          "type": "level",
+          "name": "Paladin 17",
+          "url": "/api/classes/paladin/levels/17"
+        }
+      ],
+      "spell": {
+        "index": "flame-strike",
+        "name": "Flame Strike",
+        "url": "/api/spells/flame-strike"
+      }
+    }
+  ],
+  "levels": [
+    {
+      "level": 3,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "channel-divinity",
+          "name": "Channel Divinity",
+          "url": "/api/features/channel-divinity"
+        }
+      ],
+      "class": {
+        "index": "paladin",
+        "name": "Paladin",
+        "url": "/api/classes/paladin"
+      },
+      "subclass": {
+        "index": "devotion",
+        "name": "Devotion",
+        "url": "/api/subclasses/devotion"
+      },
+      "url": "/api/subclasses/devotion/levels/3",
+      "index": "devotion-3"
+    },
+    {
+      "level": 7,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "aura-of-devotion",
+          "name": "Aura of Devotion",
+          "url": "/api/features/aura-of-devotion"
+        }
+      ],
+      "subclass_specific": {
+        "aura_range": 10
+      },
+      "class": {
+        "index": "paladin",
+        "name": "Paladin",
+        "url": "/api/classes/paladin"
+      },
+      "subclass": {
+        "index": "devotion",
+        "name": "Devotion",
+        "url": "/api/subclasses/devotion"
+      },
+      "url": "/api/subclasses/devotion/levels/7",
+      "index": "devotion-7"
+    },
+    {
+      "level": 15,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "purity-of-spirit",
+          "name": "Purity of Spirit",
+          "url": "/api/features/purity-of-spirit"
+        }
+      ],
+      "subclass_specific": {
+        "aura_range": 10
+      },
+      "class": {
+        "index": "paladin",
+        "name": "Paladin",
+        "url": "/api/classes/paladin"
+      },
+      "subclass": {
+        "index": "devotion",
+        "name": "Devotion",
+        "url": "/api/subclasses/devotion"
+      },
+      "url": "/api/subclasses/devotion/levels/15",
+      "index": "devotion-15"
+    },
+    {
+      "level": 18,
+      "feature_choices": [],
+      "features": [],
+      "subclass_specific": {
+        "aura_range": 30
+      },
+      "class": {
+        "index": "paladin",
+        "name": "Paladin",
+        "url": "/api/classes/paladin"
+      },
+      "subclass": {
+        "index": "devotion",
+        "name": "Devotion",
+        "url": "/api/subclasses/devotion"
+      },
+      "url": "/api/subclasses/devotion/levels/18",
+      "index": "devotion-18"
+    },
+    {
+      "level": 20,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "holy-nimbus",
+          "name": "Holy Nimbus",
+          "url": "/api/features/holy-nimbus"
+        }
+      ],
+      "subclass_specific": {
+        "aura_range": 30
+      },
+      "class": {
+        "index": "paladin",
+        "name": "Paladin",
+        "url": "/api/classes/paladin"
+      },
+      "subclass": {
+        "index": "devotion",
+        "name": "Devotion",
+        "url": "/api/subclasses/devotion"
+      },
+      "url": "/api/subclasses/devotion/levels/20",
+      "index": "devotion-20"
+    }
+  ],
+  "subclass_levels": "/api/subclasses/devotion/levels",
+  "url": "/api/subclasses/devotion"
+}

@@ -1,0 +1,109 @@
+{
+  "index": "hunter",
+  "class": {
+    "index": "ranger",
+    "name": "Ranger",
+    "url": "/api/classes/ranger"
+  },
+  "name": "Hunter",
+  "subclass_flavor": "Ranger Archetype",
+  "desc": [
+    "Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons."
+  ],
+  "levels": [
+    {
+      "level": 3,
+      "feature_choices": [
+        {
+          "index": "choose-hunters-prey",
+          "name": "Choose: Hunter's Prey",
+          "url": "/api/features/choose-hunters-prey"
+        }
+      ],
+      "features": [],
+      "class": {
+        "index": "ranger",
+        "name": "Ranger",
+        "url": "/api/classes/ranger"
+      },
+      "subclass": {
+        "index": "hunter",
+        "name": "Hunter",
+        "url": "/api/subclasses/hunter"
+      },
+      "url": "/api/subclasses/hunter/levels/3",
+      "index": "hunter-3"
+    },
+    {
+      "level": 7,
+      "feature_choices": [
+        {
+          "index": "choose-defensive-tactics",
+          "name": "Choose: Defensive Tactics",
+          "url": "/api/features/choose-defensive-tactics"
+        }
+      ],
+      "features": [],
+      "class": {
+        "index": "ranger",
+        "name": "Ranger",
+        "url": "/api/classes/ranger"
+      },
+      "subclass": {
+        "index": "hunter",
+        "name": "Hunter",
+        "url": "/api/subclasses/hunter"
+      },
+      "url": "/api/subclasses/hunter/levels/7",
+      "index": "hunter-7"
+    },
+    {
+      "level": 11,
+      "feature_choices": [
+        {
+          "index": "choose-multiattack",
+          "name": "Choose: Multiattack",
+          "url": "/api/features/choose-multiattack"
+        }
+      ],
+      "features": [],
+      "class": {
+        "index": "ranger",
+        "name": "Ranger",
+        "url": "/api/classes/ranger"
+      },
+      "subclass": {
+        "index": "hunter",
+        "name": "Hunter",
+        "url": "/api/subclasses/hunter"
+      },
+      "url": "/api/subclasses/hunter/levels/11",
+      "index": "hunter-11"
+    },
+    {
+      "level": 15,
+      "feature_choices": [
+        {
+          "index": "choose-superior-hunters-defense",
+          "name": "Choose: Superior Hunter's Defense",
+          "url": "/api/features/choose-superior-hunters-defense"
+        }
+      ],
+      "features": [],
+      "class": {
+        "index": "ranger",
+        "name": "Ranger",
+        "url": "/api/classes/ranger"
+      },
+      "subclass": {
+        "index": "hunter",
+        "name": "Hunter",
+        "url": "/api/subclasses/hunter"
+      },
+      "url": "/api/subclasses/hunter/levels/15",
+      "index": "hunter-15"
+    }
+  ],
+  "subclass_levels": "/api/subclasses/hunter/levels",
+  "url": "/api/subclasses/hunter"
+}

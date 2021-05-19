@@ -1,0 +1,114 @@
+{
+  "index": "evocation",
+  "class": {
+    "index": "wizard",
+    "name": "Wizard",
+    "url": "/api/classes/wizard"
+  },
+  "name": "Evocation",
+  "subclass_flavor": "Arcane Tradition",
+  "desc": [
+    "You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants."
+  ],
+  "levels": [
+    {
+      "level": 2,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "evocation-savant",
+          "name": "Evocation Savant",
+          "url": "/api/features/evocation-savant"
+        },
+        {
+          "index": "sculpt-spells",
+          "name": "Sculpt Spells",
+          "url": "/api/features/sculpt-spells"
+        }
+      ],
+      "class": {
+        "index": "wizard",
+        "name": "Wizard",
+        "url": "/api/classes/wizard"
+      },
+      "subclass": {
+        "index": "evocation",
+        "name": "Evocation",
+        "url": "/api/subclasses/evocation"
+      },
+      "url": "/api/subclasses/evocation/levels/2",
+      "index": "evocation-2"
+    },
+    {
+      "level": 6,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "potent-cantrip",
+          "name": "Potent Cantrip",
+          "url": "/api/features/potent-cantrip"
+        }
+      ],
+      "class": {
+        "index": "wizard",
+        "name": "Wizard",
+        "url": "/api/classes/wizard"
+      },
+      "subclass": {
+        "index": "evocation",
+        "name": "Evocation",
+        "url": "/api/subclasses/evocation"
+      },
+      "url": "/api/subclasses/evocation/levels/6",
+      "index": "evocation-6"
+    },
+    {
+      "level": 10,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "empowered-evocation",
+          "name": "Empowered Evocation",
+          "url": "/api/features/empowered-evocation"
+        }
+      ],
+      "class": {
+        "index": "wizard",
+        "name": "Wizard",
+        "url": "/api/classes/wizard"
+      },
+      "subclass": {
+        "index": "evocation",
+        "name": "Evocation",
+        "url": "/api/subclasses/evocation"
+      },
+      "url": "/api/subclasses/evocation/levels/10",
+      "index": "evocation-10"
+    },
+    {
+      "level": 14,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "overchannel",
+          "name": "Overchannel",
+          "url": "/api/features/overchannel"
+        }
+      ],
+      "class": {
+        "index": "wizard",
+        "name": "Wizard",
+        "url": "/api/classes/wizard"
+      },
+      "subclass": {
+        "index": "evocation",
+        "name": "Evocation",
+        "url": "/api/subclasses/evocation"
+      },
+      "url": "/api/subclasses/evocation/levels/14",
+      "index": "evocation-14"
+    }
+  ],
+  "subclass_levels": "/api/subclasses/evocation/levels",
+  "url": "/api/subclasses/evocation"
+}

@@ -1,0 +1,109 @@
+{
+  "index": "open-hand",
+  "class": {
+    "index": "monk",
+    "name": "Monk",
+    "url": "/api/classes/monk"
+  },
+  "name": "Open Hand",
+  "subclass_flavor": "Monastic Tradition",
+  "desc": [
+    "Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm."
+  ],
+  "levels": [
+    {
+      "level": 3,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "open-hand-technique",
+          "name": "Open Hand Technique",
+          "url": "/api/features/open-hand-technique"
+        }
+      ],
+      "class": {
+        "index": "monk",
+        "name": "Monk",
+        "url": "/api/classes/monk"
+      },
+      "subclass": {
+        "index": "open-hand",
+        "name": "Open Hand",
+        "url": "/api/subclasses/open-hand"
+      },
+      "url": "/api/subclasses/open-hand/levels/3",
+      "index": "open-hand-3"
+    },
+    {
+      "level": 6,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "wholeness-of-body",
+          "name": "Wholeness of Body",
+          "url": "/api/features/wholeness-of-body"
+        }
+      ],
+      "class": {
+        "index": "monk",
+        "name": "Monk",
+        "url": "/api/classes/monk"
+      },
+      "subclass": {
+        "index": "open-hand",
+        "name": "Open Hand",
+        "url": "/api/subclasses/open-hand"
+      },
+      "url": "/api/subclasses/open-hand/levels/6",
+      "index": "open-hand-6"
+    },
+    {
+      "level": 11,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "tranquility",
+          "name": "Tranquility",
+          "url": "/api/features/tranquility"
+        }
+      ],
+      "class": {
+        "index": "monk",
+        "name": "Monk",
+        "url": "/api/classes/monk"
+      },
+      "subclass": {
+        "index": "open-hand",
+        "name": "Open Hand",
+        "url": "/api/subclasses/open-hand"
+      },
+      "url": "/api/subclasses/open-hand/levels/11",
+      "index": "open-hand-11"
+    },
+    {
+      "level": 17,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "quivering-palm",
+          "name": "Quiverying Palm",
+          "url": "/api/features/quivering-palm"
+        }
+      ],
+      "class": {
+        "index": "monk",
+        "name": "Monk",
+        "url": "/api/classes/monk"
+      },
+      "subclass": {
+        "index": "open-hand",
+        "name": "Open Hand",
+        "url": "/api/subclasses/open-hand"
+      },
+      "url": "/api/subclasses/open-hand/levels/17",
+      "index": "open-hand-17"
+    }
+  ],
+  "subclass_levels": "/api/subclasses/open-hand/levels",
+  "url": "/api/subclasses/open-hand"
+}

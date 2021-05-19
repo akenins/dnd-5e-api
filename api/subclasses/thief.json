@@ -1,0 +1,114 @@
+{
+  "index": "thief",
+  "class": {
+    "index": "rogue",
+    "name": "Rogue",
+    "url": "/api/classes/rogue"
+  },
+  "name": "Thief",
+  "subclass_flavor": "Roguish Archetype",
+  "desc": [
+    "You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ."
+  ],
+  "levels": [
+    {
+      "level": 3,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "fast-hands",
+          "name": "Fast Hands",
+          "url": "/api/features/fast-hands"
+        },
+        {
+          "index": "second-story-work",
+          "name": "Second-Story Work",
+          "url": "/api/features/second-story-work"
+        }
+      ],
+      "class": {
+        "index": "rogue",
+        "name": "Rogue",
+        "url": "/api/classes/rogue"
+      },
+      "subclass": {
+        "index": "thief",
+        "name": "Thief",
+        "url": "/api/subclasses/thief"
+      },
+      "url": "/api/subclasses/thief/levels/3",
+      "index": "thief-3"
+    },
+    {
+      "level": 9,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "supreme-sneak",
+          "name": "Supreme Sneak",
+          "url": "/api/features/supreme-sneak"
+        }
+      ],
+      "class": {
+        "index": "rogue",
+        "name": "Rogue",
+        "url": "/api/classes/rogue"
+      },
+      "subclass": {
+        "index": "thief",
+        "name": "Thief",
+        "url": "/api/subclasses/thief"
+      },
+      "url": "/api/subclasses/thief/levels/9",
+      "index": "thief-9"
+    },
+    {
+      "level": 13,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "use-magic-device",
+          "name": "Use Magic Device",
+          "url": "/api/features/use-magic-device"
+        }
+      ],
+      "class": {
+        "index": "rogue",
+        "name": "Rogue",
+        "url": "/api/classes/rogue"
+      },
+      "subclass": {
+        "index": "thief",
+        "name": "Thief",
+        "url": "/api/subclasses/thief"
+      },
+      "url": "/api/subclasses/thief/levels/13",
+      "index": "thief-13"
+    },
+    {
+      "level": 17,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "thiefs-reflexes",
+          "name": "Thief's Reflexes",
+          "url": "/api/features/thiefs-reflexes"
+        }
+      ],
+      "class": {
+        "index": "rogue",
+        "name": "Rogue",
+        "url": "/api/classes/rogue"
+      },
+      "subclass": {
+        "index": "thief",
+        "name": "Thief",
+        "url": "/api/subclasses/thief"
+      },
+      "url": "/api/subclasses/thief/levels/17",
+      "index": "thief-17"
+    }
+  ],
+  "subclass_levels": "/api/subclasses/thief/levels",
+  "url": "/api/subclasses/thief"
+}

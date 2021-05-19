@@ -1,0 +1,261 @@
+{
+  "index": "fiend",
+  "class": {
+    "index": "warlock",
+    "name": "Warlock",
+    "url": "/api/classes/warlock"
+  },
+  "name": "Fiend",
+  "subclass_flavor": "Otherworldly Patron",
+  "desc": [
+    "You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths."
+  ],
+  "spells": [
+    {
+      "prerequisites": [
+        {
+          "index": "warlock-1",
+          "type": "level",
+          "name": "Warlock 1",
+          "url": "/api/classes/warlock/levels/1"
+        }
+      ],
+      "spell": {
+        "index": "burning-hands",
+        "name": "Burning Hands",
+        "url": "/api/spells/burning-hands"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "warlock-1",
+          "type": "level",
+          "name": "Warlock 1",
+          "url": "/api/classes/warlock/levels/1"
+        }
+      ],
+      "spell": {
+        "index": "command",
+        "name": "Command",
+        "url": "/api/spells/command"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "warlock-1",
+          "type": "level",
+          "name": "Warlock 1",
+          "url": "/api/classes/warlock/levels/1"
+        }
+      ],
+      "spell": {
+        "index": "blindness-deafness",
+        "name": "Blindness/Deafness",
+        "url": "/api/spells/blindness-deafness"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "warlock-1",
+          "type": "level",
+          "name": "Warlock 1",
+          "url": "/api/classes/warlock/levels/1"
+        }
+      ],
+      "spell": {
+        "index": "scorching-ray",
+        "name": "Scorching Ray",
+        "url": "/api/spells/scorching-ray"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "warlock-1",
+          "type": "level",
+          "name": "Warlock 1",
+          "url": "/api/classes/warlock/levels/1"
+        }
+      ],
+      "spell": {
+        "index": "fireball",
+        "name": "Fireball",
+        "url": "/api/spells/fireball"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "warlock-1",
+          "type": "level",
+          "name": "Warlock 1",
+          "url": "/api/classes/warlock/levels/1"
+        }
+      ],
+      "spell": {
+        "index": "stinking-cloud",
+        "name": "Stinking Cloud",
+        "url": "/api/spells/stinking-cloud"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "warlock-1",
+          "type": "level",
+          "name": "Warlock 1",
+          "url": "/api/classes/warlock/levels/1"
+        }
+      ],
+      "spell": {
+        "index": "fire-shield",
+        "name": "Fire Shield",
+        "url": "/api/spells/fire-shield"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "warlock-1",
+          "type": "level",
+          "name": "Warlock 1",
+          "url": "/api/classes/warlock/levels/1"
+        }
+      ],
+      "spell": {
+        "index": "wall-of-fire",
+        "name": "Wall of Fire",
+        "url": "/api/spells/wall-of-fire"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "warlock-1",
+          "type": "level",
+          "name": "Warlock 1",
+          "url": "/api/classes/warlock/levels/1"
+        }
+      ],
+      "spell": {
+        "index": "flame-strike",
+        "name": "Flame Strike",
+        "url": "/api/spells/flame-strike"
+      }
+    },
+    {
+      "prerequisites": [
+        {
+          "index": "warlock-1",
+          "type": "level",
+          "name": "Warlock 1",
+          "url": "/api/classes/warlock/levels/1"
+        }
+      ],
+      "spell": {
+        "index": "hallow",
+        "name": "Hallow",
+        "url": "/api/spells/hallow"
+      }
+    }
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "dark-ones-blessing",
+          "name": "Dark One's Blessing",
+          "url": "/api/features/dark-ones-blessing"
+        }
+      ],
+      "class": {
+        "index": "warlock",
+        "name": "Warlock",
+        "url": "/api/classes/warlock"
+      },
+      "subclass": {
+        "index": "fiend",
+        "name": "The Fiend",
+        "url": "/api/subclasses/fiend"
+      },
+      "url": "/api/subclasses/fiend/levels/1",
+      "index": "fiend-1"
+    },
+    {
+      "level": 6,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "dark-ones-own-luck",
+          "name": "Dark One's Own Luck",
+          "url": "/api/features/dark-ones-own-luck"
+        }
+      ],
+      "class": {
+        "index": "warlock",
+        "name": "Warlock",
+        "url": "/api/classes/warlock"
+      },
+      "subclass": {
+        "index": "fiend",
+        "name": "The Fiend",
+        "url": "/api/subclasses/fiend"
+      },
+      "url": "/api/subclasses/fiend/levels/6",
+      "index": "fiend-6"
+    },
+    {
+      "level": 10,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "fiendish-resilience",
+          "name": "Fiendish Resilience",
+          "url": "/api/features/fiendish-resilience"
+        }
+      ],
+      "class": {
+        "index": "warlock",
+        "name": "Warlock",
+        "url": "/api/classes/warlock"
+      },
+      "subclass": {
+        "index": "fiend",
+        "name": "The Fiend",
+        "url": "/api/subclasses/fiend"
+      },
+      "url": "/api/subclasses/fiend/levels/10",
+      "index": "fiend-10"
+    },
+    {
+      "level": 14,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "hurl-through-hell",
+          "name": "Hurl Through Hell",
+          "url": "/api/features/hurl-through-hell"
+        }
+      ],
+      "class": {
+        "index": "warlock",
+        "name": "Warlock",
+        "url": "/api/classes/warlock"
+      },
+      "subclass": {
+        "index": "fiend",
+        "name": "Fiend",
+        "url": "/api/subclasses/fiend"
+      },
+      "url": "/api/subclasses/fiend/levels/14",
+      "index": "fiend-14"
+    }
+  ],
+  "subclass_levels": "/api/subclasses/fiend/levels",
+  "url": "/api/subclasses/fiend"
+}

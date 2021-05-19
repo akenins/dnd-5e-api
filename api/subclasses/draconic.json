@@ -1,0 +1,115 @@
+{
+  "index": "draconic",
+  "class": {
+    "index": "sorcerer",
+    "name": "Sorcerer",
+    "url": "/api/classes/sorcerer"
+  },
+  "name": "Draconic",
+  "subclass_flavor": "Sorcerous Origins",
+  "desc": [
+    "Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance."
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "feature_choices": [
+        {
+          "index": "choose-dragon-ancestor",
+          "name": "Choose: Dragon Ancestor",
+          "url": "/api/features/choose-dragon-ancestor"
+        }
+      ],
+      "features": [
+        {
+          "index": "draconic-resilience",
+          "name": "Draconic Resilience",
+          "url": "/api/features/draconic-resilience"
+        }
+      ],
+      "class": {
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "url": "/api/classes/sorcerer"
+      },
+      "subclass": {
+        "index": "draconic",
+        "name": "Draconic",
+        "url": "/api/subclasses/draconic"
+      },
+      "url": "/api/subclasses/draconic/levels/1",
+      "index": "draconic-1"
+    },
+    {
+      "level": 6,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "elemental-affinity",
+          "name": "Elemental Affinity",
+          "url": "/api/features/elemental-affinity"
+        }
+      ],
+      "class": {
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "url": "/api/classes/sorcerer"
+      },
+      "subclass": {
+        "index": "draconic",
+        "name": "Draconic",
+        "url": "/api/subclasses/draconic"
+      },
+      "url": "/api/subclasses/draconic/levels/6",
+      "index": "draconic-6"
+    },
+    {
+      "level": 14,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "dragon-wings",
+          "name": "Dragon Wings",
+          "url": "/api/features/dragon-wings"
+        }
+      ],
+      "class": {
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "url": "/api/classes/sorcerer"
+      },
+      "subclass": {
+        "index": "draconic",
+        "name": "Draconic",
+        "url": "/api/subclasses/draconic"
+      },
+      "url": "/api/subclasses/draconic/levels/14",
+      "index": "draconic-14"
+    },
+    {
+      "level": 18,
+      "feature_choices": [],
+      "features": [
+        {
+          "index": "draconic-presence",
+          "name": "Draconic Presence",
+          "url": "/api/features/draconic-presence"
+        }
+      ],
+      "class": {
+        "index": "sorcerer",
+        "name": "Sorcerer",
+        "url": "/api/classes/sorcerer"
+      },
+      "subclass": {
+        "index": "draconic",
+        "name": "Draconic",
+        "url": "/api/subclasses/draconic"
+      },
+      "url": "/api/subclasses/draconic/levels/18",
+      "index": "draconic-18"
+    }
+  ],
+  "subclass_levels": "/api/subclasses/draconic/levels",
+  "url": "/api/subclasses/draconic"
+}
